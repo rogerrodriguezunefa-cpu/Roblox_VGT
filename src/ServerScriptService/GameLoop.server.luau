@@ -6,12 +6,13 @@ local Workspace = game:GetService("Workspace")
 local Shared = ReplicatedStorage:WaitForChild("Shared")
 local Config = require(Shared:WaitForChild("Config"))
 local VehicleFactory = require(Shared:WaitForChild("VehicleFactory"))
-local BotAIService = require(game:GetService("ServerScriptService"):WaitForChild("BotAIService"))
 
--- Carpeta de eventos remotos
+-- Carpeta de eventos remotos (crear antes de requerir otros módulos para evitar bloqueos)
 local remotes = Instance.new("Folder")
 remotes.Name = "Remotes"
 remotes.Parent = ReplicatedStorage
+
+local BotAIService = require(game:GetService("ServerScriptService"):WaitForChild("BotAIService"))
 
 local flipRemote = Instance.new("RemoteEvent")
 flipRemote.Name = "FlipVehicle"

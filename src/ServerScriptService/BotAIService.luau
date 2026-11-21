@@ -9,8 +9,6 @@ local ServerScriptService = game:GetService("ServerScriptService")
 
 local ProjectileService = require(ServerScriptService:WaitForChild("ProjectileService"))
 local VehicleHealthService = require(ServerScriptService:WaitForChild("VehicleHealthService"))
-local Remotes = ReplicatedStorage:WaitForChild("Remotes")
-local WeaponVFXEvent = Remotes:WaitForChild("WeaponVFX") :: RemoteEvent
 
 local BotAIService = {}
 
@@ -107,7 +105,11 @@ local function botFireWeapon(botVehicle: Model, weaponModel: Model, targetVehicl
 		local targetRoot = targetVehicle.PrimaryPart
 		if targetRoot then
 			local targetPos = targetRoot.Position
-			WeaponVFXEvent:FireAllClients(origin, targetPos, weaponId)
+			local remotes = ReplicatedStorage:FindFirstChild("Remotes")
+			local weaponVFX = if remotes then remotes:FindFirstChild("WeaponVFX") else nil
+			if weaponVFX and weaponVFX:IsA("RemoteEvent") then
+				weaponVFX:FireAllClients(origin, targetPos, weaponId)
+			end
 			VehicleHealthService.ApplyDamage(targetVehicle, 18, targetPos)
 		end
 	end
