@@ -4,10 +4,15 @@
 
 local CollectionService = game:GetService("CollectionService")
 local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
 
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+local FireWeaponEvent = Remotes:WaitForChild("FireWeapon") :: RemoteEvent
+local isTouch = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
 
 -- Paleta de colores Retro Años 70 (Naranja cálido, crema, cromo y verde neón)
 local COLORS = {
@@ -53,8 +58,13 @@ local function createRetroFrame(name: string, size: UDim2, pos: UDim2, anchor: V
 	return frame
 end
 
--- PANEL INFERIOR IZQUIERDO: Integridad del Vehículo y Velocímetro (junto al radar sin taparlo)
-local statsPanel = createRetroFrame("StatsPanel", UDim2.new(0, 260, 0, 105), UDim2.new(0, 182, 1, -20), Vector2.new(0, 1))
+-- PANEL INFERIOR IZQUIERDO (PC/Consola) o SUPERIOR IZQUIERDO COMPACTO (Mobile, sin tapar joystick)
+local statsPanel = createRetroFrame(
+	"StatsPanel",
+	if isTouch then UDim2.new(0, 178, 0, 74) else UDim2.new(0, 260, 0, 105),
+	if isTouch then UDim2.new(0, 10, 0, 152) else UDim2.new(0, 182, 1, -20),
+	if isTouch then Vector2.new(0, 0) else Vector2.new(0, 1)
+)
 
 local vehicleNameLabel = Instance.new("TextLabel")
 vehicleNameLabel.Size = UDim2.new(1, -20, 0, 24)
@@ -102,34 +112,84 @@ speedLabel.TextXAlignment = Enum.TextXAlignment.Left
 speedLabel.Text = "000 MPH"
 speedLabel.Parent = statsPanel
 
--- PANEL INFERIOR DERECHO: Slots de Armas (encima del HUD de velocidad/turbo para no solaparse)
-local weaponsPanel = createRetroFrame("WeaponsPanel", UDim2.new(0, 270, 0, 105), UDim2.new(1, -20, 1, -200), Vector2.new(1, 1))
+-- PANEL DE ARMAS: Encima del HUD derecho en PC/Consola, o debajo del HUD derecho en Mobile (tocable)
+local weaponsPanel = createRetroFrame(
+	"WeaponsPanel",
+	if isTouch then UDim2.new(0, 190, 0, 84) else UDim2.new(0, 270, 0, 105),
+	if isTouch then UDim2.new(1, -10, 0, 186) else UDim2.new(1, -20, 1, -200),
+	if isTouch then Vector2.new(1, 0) else Vector2.new(1, 1)
+)
 
-local function createWeaponSlot(title: string, yPos: number, isSpecial: boolean): TextLabel
-	local slotFrame = Instance.new("Frame")
-	slotFrame.Size = UDim2.new(1, -16, 0, 26)
-	slotFrame.Position = UDim2.new(0, 8, 0, yPos)
+local currentScreenTarget: Model? = nil
+
+local function createWeaponSlot(title: string, yPos: number, isSpecial: boolean, mountName: string): TextButton
+	local slotFrame = Instance.new("TextButton")
+	slotFrame.AutoButtonColor = true
+	slotFrame.Text = ""
+	slotFrame.Size = if isTouch then UDim2.new(1, -12, 0, 22) else UDim2.new(1, -16, 0, 26)
+	slotFrame.Position = if isTouch then UDim2.new(0, 6, 0, yPos) else UDim2.new(0, 8, 0, yPos)
 	slotFrame.BackgroundColor3 = if isSpecial then Color3.fromRGB(35, 65, 30) else Color3.fromRGB(45, 38, 32)
 	slotFrame.Parent = weaponsPanel
 	Instance.new("UICorner", slotFrame).CornerRadius = UDim.new(0, 4)
 
 	local label = Instance.new("TextLabel")
-	label.Size = UDim2.new(1, -12, 1, 0)
-	label.Position = UDim2.new(0, 6, 0, 0)
+	label.Size = UDim2.new(1, -10, 1, 0)
+	label.Position = UDim2.new(0, 5, 0, 0)
 	label.BackgroundTransparency = 1
 	label.Font = Enum.Font.GothamBold
 	label.TextColor3 = if isSpecial then Color3.fromRGB(140, 255, 120) else COLORS.TextCream
-	label.TextSize = 13
+	label.TextSize = if isTouch then 10 else 13
 	label.TextXAlignment = Enum.TextXAlignment.Left
 	label.Text = title .. ": EMPTY"
 	label.Parent = slotFrame
 
-	return label
+	slotFrame.MouseButton1Click:Connect(function()
+		FireWeaponEvent:FireServer(mountName, currentScreenTarget)
+	end)
+
+	return slotFrame
 end
 
-local specialSlotLabel = createWeaponSlot("[CLICK] SPECIAL", 8, true)
-local leftSlotLabel = createWeaponSlot("[E] LEFT", 40, false)
-local rightSlotLabel = createWeaponSlot("[Q] RIGHT", 72, false)
+local specialSlotBtn = createWeaponSlot("[CLICK] SPECIAL", if isTouch then 6 else 8, true, "RoofMount")
+local leftSlotBtn = createWeaponSlot("[E] LEFT", if isTouch then 31 else 40, false, "LeftSideMount")
+local rightSlotBtn = createWeaponSlot("[Q] RIGHT", if isTouch then 56 else 72, false, "RightSideMount")
+local specialSlotLabel = specialSlotBtn:FindFirstChildOfClass("TextLabel") :: TextLabel
+local leftSlotLabel = leftSlotBtn:FindFirstChildOfClass("TextLabel") :: TextLabel
+local rightSlotLabel = rightSlotBtn:FindFirstChildOfClass("TextLabel") :: TextLabel
+
+-- Botón táctil de Derrape (solo Mobile)
+if isTouch then
+	local driftBtn = Instance.new("TextButton")
+	driftBtn.Name = "MobileDriftButton"
+	driftBtn.Size = UDim2.new(0, 82, 0, 34)
+	driftBtn.Position = UDim2.new(0, 10, 0, 232)
+	driftBtn.BackgroundColor3 = COLORS.AccentOrange
+	driftBtn.Font = Enum.Font.GothamBold
+	driftBtn.TextColor3 = COLORS.PanelBg
+	driftBtn.TextSize = 13
+	driftBtn.Text = "DRIFT"
+	driftBtn.Parent = screenGui
+	Instance.new("UICorner", driftBtn).CornerRadius = UDim.new(0, 6)
+
+	local function setMobileDrift(active: boolean)
+		local character = player.Character
+		local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+		local seat = humanoid and humanoid.SeatPart
+		if seat and seat:IsA("VehicleSeat") then
+			seat:SetAttribute("IsDrifting", active)
+		end
+	end
+
+	driftBtn.MouseButton1Down:Connect(function()
+		setMobileDrift(true)
+	end)
+	driftBtn.MouseButton1Up:Connect(function()
+		setMobileDrift(false)
+	end)
+	driftBtn.TouchEnded:Connect(function()
+		setMobileDrift(false)
+	end)
+end
 
 -- MIRA DE FIJACIÓN DE OBJETIVO (LOCK-ON RETICLE EN PANTALLA)
 local lockReticle = Instance.new("Frame")
@@ -240,6 +300,7 @@ RunService.RenderStepped:Connect(function(dt: number)
 
 	-- 4. Posicionar Mira Lock-On sobre el enemigo en pantalla
 	local target = findScreenTarget(myVehicle, camera)
+	currentScreenTarget = target
 	if target and target.PrimaryPart then
 		local screenPos, onScreen = camera:WorldToViewportPoint(target.PrimaryPart.Position)
 		if onScreen then
