@@ -53,8 +53,8 @@ local function createRetroFrame(name: string, size: UDim2, pos: UDim2, anchor: V
 	return frame
 end
 
--- PANEL INFERIOR IZQUIERDO: Integridad del Vehículo y Velocímetro
-local statsPanel = createRetroFrame("StatsPanel", UDim2.new(0, 260, 0, 105), UDim2.new(0, 20, 1, -20), Vector2.new(0, 1))
+-- PANEL INFERIOR IZQUIERDO: Integridad del Vehículo y Velocímetro (junto al radar sin taparlo)
+local statsPanel = createRetroFrame("StatsPanel", UDim2.new(0, 260, 0, 105), UDim2.new(0, 182, 1, -20), Vector2.new(0, 1))
 
 local vehicleNameLabel = Instance.new("TextLabel")
 vehicleNameLabel.Size = UDim2.new(1, -20, 0, 24)
@@ -102,8 +102,8 @@ speedLabel.TextXAlignment = Enum.TextXAlignment.Left
 speedLabel.Text = "000 MPH"
 speedLabel.Parent = statsPanel
 
--- PANEL INFERIOR DERECHO: Slots de Armas (Especial + Laterales)
-local weaponsPanel = createRetroFrame("WeaponsPanel", UDim2.new(0, 270, 0, 105), UDim2.new(1, -20, 1, -20), Vector2.new(1, 1))
+-- PANEL INFERIOR DERECHO: Slots de Armas (encima del HUD de velocidad/turbo para no solaparse)
+local weaponsPanel = createRetroFrame("WeaponsPanel", UDim2.new(0, 270, 0, 105), UDim2.new(1, -20, 1, -200), Vector2.new(1, 1))
 
 local function createWeaponSlot(title: string, yPos: number, isSpecial: boolean): TextLabel
 	local slotFrame = Instance.new("Frame")
