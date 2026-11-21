@@ -1,0 +1,31 @@
+{
+  "name": "Vigilante8-Roblox",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      },
+      "WeaponConfig": {
+        "$path": "src/ReplicatedStorage/WeaponConfig.luau"
+      },
+      "WeaponModels": {
+        "$path": "src/ReplicatedStorage/WeaponModels"
+      },
+      "ProjectileModels": {
+        "$path": "src/ReplicatedStorage/ProjectileModels"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      }
+    }
+  }
+}

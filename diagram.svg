@@ -1,0 +1,467 @@
+<svg class="dark " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1504.2 1685" width="1504.2" height="1685" id="mdbd0e7__root" data-diagram-type="ascii">
+  <style data-mercat-style="universal">.mercat text{font-family:'Google Sans',Roboto,Arial,sans-serif;fill:var(--m-text);dominant-baseline:central}.mercat .m-edge .m-path{fill:none;stroke:var(--m-line);stroke-width:1.5px}.mercat .m-note .m-label{fill:var(--m-note-text)}.mercat .t-label{font-size:13px;font-weight:500}</style>
+  <style data-mercat-style="theme-light">#mdbd0e7__root{--m-text:#1f1f1f;--m-line:#545454;--m-note-text:#1f1f1f}</style>
+  <style data-mercat-style="theme-dark">#mdbd0e7__root.dark{--m-text:#e3e3e3;--m-line:#bfbfbf;--m-note-text:#e3e3e3}</style>
+  <style data-mercat-style="type">#mdbd0e7__root .arrow-line,#mdbd0e7__root .bus-line{fill:none;stroke:var(--m-line);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}#mdbd0e7__root .annotation-text{fill:var(--m-text);font-size:13px;font-weight:500;white-space:pre}</style>
+  <style data-mercat-style="diagram">#mdbd0e7__root text{font-family:Google Sans Mono, Roboto Mono, monospace}</style>
+  <g class="mercat mercat-ascii">
+    <defs>
+      <marker id="mdbd0e7__mk-arrow" refX="9.45" refY="3.4" markerWidth="10.8" markerHeight="6.8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+        <path d="M 0 0 L 10.8 3.4 L 0 6.8 Z" class="m-marker" fill="var(--m-line)" stroke="none"/>
+      </marker>
+    </defs>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__0" data-role="connector">
+      <line x1="19.25" y1="15" x2="690.75" y2="15" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__1" data-role="connector">
+      <line x1="19.25" y1="20" x2="690.75" y2="20" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__2" data-role="connector">
+      <line x1="19.25" y1="81" x2="690.75" y2="81" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__3" data-role="connector">
+      <line x1="19.25" y1="86" x2="690.75" y2="86" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a6__0" data-role="connector">
+      <line x1="19.25" y1="215.5" x2="36.25" y2="215.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a7__0" data-role="connector">
+      <line x1="53.25" y1="237.5" x2="70.25" y2="237.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__a7__a8__0" data-role="connector">
+      <line x1="295.5" y1="237.5" x2="311.15" y2="237.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a9__0" data-role="connector">
+      <line x1="53.25" y1="259.5" x2="70.25" y2="259.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a10__0" data-role="connector">
+      <line x1="295.5" y1="259.5" x2="311.15" y2="259.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a11__0" data-role="connector">
+      <line x1="19.25" y1="281.5" x2="36.25" y2="281.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a12__0" data-role="connector">
+      <line x1="295.5" y1="281.5" x2="311.15" y2="281.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a13__0" data-role="connector">
+      <line x1="19.25" y1="303.5" x2="36.25" y2="303.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a14__0" data-role="connector">
+      <line x1="295.5" y1="303.5" x2="311.15" y2="303.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a15__0" data-role="connector">
+      <line x1="19.25" y1="325.5" x2="36.25" y2="325.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a16__0" data-role="connector">
+      <line x1="295.5" y1="325.5" x2="311.15" y2="325.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a18__0" data-role="connector">
+      <line x1="19.25" y1="391.5" x2="36.25" y2="391.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a19__0" data-role="connector">
+      <line x1="380.5" y1="391.5" x2="396.15" y2="391.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a20__0" data-role="connector">
+      <line x1="19.25" y1="413.5" x2="36.25" y2="413.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a21__0" data-role="connector">
+      <line x1="380.5" y1="413.5" x2="396.15" y2="413.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a22__0" data-role="connector">
+      <line x1="19.25" y1="435.5" x2="36.25" y2="435.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a23__0" data-role="connector">
+      <line x1="380.5" y1="435.5" x2="396.15" y2="435.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a24__0" data-role="connector">
+      <line x1="19.25" y1="457.5" x2="36.25" y2="457.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__a24__a25__0" data-role="connector">
+      <line x1="380.5" y1="457.5" x2="396.15" y2="457.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a26__0" data-role="connector">
+      <line x1="19.25" y1="479.5" x2="36.25" y2="479.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a27__0" data-role="connector">
+      <line x1="380.5" y1="479.5" x2="396.15" y2="479.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a28__0" data-role="connector">
+      <line x1="19.25" y1="501.5" x2="36.25" y2="501.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a29__0" data-role="connector">
+      <line x1="380.5" y1="501.5" x2="396.15" y2="501.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a30__0" data-role="connector">
+      <line x1="19.25" y1="523.5" x2="36.25" y2="523.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a31__0" data-role="connector">
+      <line x1="380.5" y1="523.5" x2="396.15" y2="523.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a33__0" data-role="connector">
+      <line x1="19.25" y1="589.5" x2="36.25" y2="589.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a34__0" data-role="connector">
+      <line x1="53.25" y1="611.5" x2="70.25" y2="611.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a35__0" data-role="connector">
+      <line x1="380.5" y1="611.5" x2="396.15" y2="611.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a36__0" data-role="connector">
+      <line x1="53.25" y1="633.5" x2="70.25" y2="633.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a37__0" data-role="connector">
+      <line x1="380.5" y1="633.5" x2="396.15" y2="633.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__4" data-role="connector">
+      <line x1="19.25" y1="675" x2="690.75" y2="675" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__5" data-role="connector">
+      <line x1="19.25" y1="680" x2="690.75" y2="680" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a44__0" data-role="connector">
+      <line x1="61.75" y1="853.5" x2="78.75" y2="853.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a45__0" data-role="connector">
+      <line x1="61.75" y1="875.5" x2="78.75" y2="875.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a46__0" data-role="connector">
+      <line x1="61.75" y1="897.5" x2="78.75" y2="897.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a47__0" data-role="connector">
+      <line x1="61.75" y1="919.5" x2="78.75" y2="919.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a48__0" data-role="connector">
+      <line x1="61.75" y1="941.5" x2="78.75" y2="941.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__6" data-role="connector">
+      <line x1="19.25" y1="1159" x2="690.75" y2="1159" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__7" data-role="connector">
+      <line x1="19.25" y1="1164" x2="690.75" y2="1164" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a59__0" data-role="connector">
+      <line x1="236" y1="1249.5" x2="251.65" y2="1249.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a61__0" data-role="connector">
+      <line x1="236" y1="1271.5" x2="251.65" y2="1271.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__a62__a63__0" data-role="connector">
+      <line x1="236" y1="1293.5" x2="251.65" y2="1293.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a65__0" data-role="connector">
+      <line x1="236" y1="1315.5" x2="251.65" y2="1315.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a67__0" data-role="connector">
+      <line x1="236" y1="1337.5" x2="251.65" y2="1337.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a69__0" data-role="connector">
+      <line x1="236" y1="1359.5" x2="251.65" y2="1359.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a71__0" data-role="connector">
+      <line x1="236" y1="1381.5" x2="251.65" y2="1381.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a73__0" data-role="connector">
+      <line x1="236" y1="1403.5" x2="251.65" y2="1403.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a75__0" data-role="connector">
+      <line x1="236" y1="1425.5" x2="251.65" y2="1425.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a77__0" data-role="connector">
+      <line x1="236" y1="1447.5" x2="251.65" y2="1447.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a79__0" data-role="connector">
+      <line x1="236" y1="1469.5" x2="251.65" y2="1469.5" class="m-path arrow-line" marker-end="url(#mdbd0e7__mk-arrow)"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__8" data-role="connector">
+      <line x1="19.25" y1="1511" x2="690.75" y2="1511" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__9" data-role="connector">
+      <line x1="19.25" y1="1516" x2="690.75" y2="1516" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__10" data-role="connector">
+      <line x1="19.25" y1="1665" x2="690.75" y2="1665" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__11" data-role="connector">
+      <line x1="19.25" y1="1670" x2="690.75" y2="1670" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__12" data-role="connector">
+      <line x1="19.25" y1="215.5" x2="19.25" y2="325.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__13" data-role="connector">
+      <line x1="19.25" y1="391.5" x2="19.25" y2="523.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__14" data-role="connector">
+      <line x1="53.25" y1="237.5" x2="53.25" y2="259.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__15" data-role="connector">
+      <line x1="53.25" y1="611.5" x2="53.25" y2="633.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__pt__16" data-role="connector">
+      <line x1="61.75" y1="853.5" x2="61.75" y2="941.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__pt__a0__0" data-role="connector">
+      <line x1="257.25" y1="17.5" x2="257.25" y2="31.65" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="mdbd0e7__edge__a0__pt__0" data-role="connector">
+      <line x1="257.25" y1="47.35" x2="257.25" y2="83.5" class="m-path bus-line"/>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a0" data-role="annotation">
+      <text x="15" y="39.5" class="m-label t-label annotation-text" text-anchor="start">DOCUMENTO MAESTRO DE ARQUITECTURA: PROYECTO COMBATE VEHICULAR (ESTILO VIGILANTE 8)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a1" data-role="annotation">
+      <text x="15" y="61.5" class="m-label t-label annotation-text" text-anchor="start">Motor: Roblox Studio (Luau)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a2" data-role="annotation">
+      <text x="270" y="61.5" class="m-label t-label annotation-text" text-anchor="start">Estética: Modern Brick-Built / LEGO Curvo (Años 70)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a3" data-role="annotation">
+      <text x="15" y="127.5" class="m-label t-label annotation-text" text-anchor="start">1. JERARQUÍA OBLIGATORIA DE INSTANCIAS EN ROBLOX STUDIO</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a4" data-role="annotation">
+      <text x="15" y="149.5" class="m-label t-label annotation-text" text-anchor="start">El agente debe crear y verificar exactamente esta estructura de carpetas y scripts:</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a5" data-role="annotation">
+      <text x="15" y="193.5" class="m-label t-label annotation-text" text-anchor="start">ReplicatedStorage/</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a6" data-role="annotation">
+      <text x="49" y="215.5" class="m-label t-label annotation-text" text-anchor="start">Remotes/ (Folder)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a7" data-role="annotation">
+      <text x="83" y="237.5" class="m-label t-label annotation-text" text-anchor="start">FireWeapon (RemoteEvent)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a8" data-role="annotation">
+      <text x="321" y="237.5" class="m-label t-label annotation-text" text-anchor="start">Cliente solicita disparo (mountPointName, targetVehicle)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a9" data-role="annotation">
+      <text x="83" y="259.5" class="m-label t-label annotation-text" text-anchor="start">WeaponVFX (RemoteEvent)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a10" data-role="annotation">
+      <text x="321" y="259.5" class="m-label t-label annotation-text" text-anchor="start">Servidor replica rayos/efectos a todos los clientes</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a11" data-role="annotation">
+      <text x="49" y="281.5" class="m-label t-label annotation-text" text-anchor="start">WeaponModels/ (Folder)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a12" data-role="annotation">
+      <text x="321" y="281.5" class="m-label t-label annotation-text" text-anchor="start">Modelos 3D de armas (PrimaryPart = base de anclaje)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a13" data-role="annotation">
+      <text x="49" y="303.5" class="m-label t-label annotation-text" text-anchor="start">ProjectileModels/ (Folder)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a14" data-role="annotation">
+      <text x="321" y="303.5" class="m-label t-label annotation-text" text-anchor="start">Modelos 3D físicos (HomingMissile, BouncingTire, Landmine)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a15" data-role="annotation">
+      <text x="49" y="325.5" class="m-label t-label annotation-text" text-anchor="start">WeaponConfig (ModuleScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a16" data-role="annotation">
+      <text x="321" y="325.5" class="m-label t-label annotation-text" text-anchor="start">Diccionario de armas, puntos de montaje y munición</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a17" data-role="annotation">
+      <text x="15" y="369.5" class="m-label t-label annotation-text" text-anchor="start">ServerScriptService/</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a18" data-role="annotation">
+      <text x="49" y="391.5" class="m-label t-label annotation-text" text-anchor="start">WeaponMountService (ModuleScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a19" data-role="annotation">
+      <text x="406" y="391.5" class="m-label t-label annotation-text" text-anchor="start">Ensambla y suelda armas en los Attachments del auto</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a20" data-role="annotation">
+      <text x="49" y="413.5" class="m-label t-label annotation-text" text-anchor="start">VehicleHealthService (ModuleScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a21" data-role="annotation">
+      <text x="406" y="413.5" class="m-label t-label annotation-text" text-anchor="start">Vida, desprendimiento de piezas y explosión final</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a22" data-role="annotation">
+      <text x="49" y="435.5" class="m-label t-label annotation-text" text-anchor="start">ProjectileService (ModuleScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a23" data-role="annotation">
+      <text x="406" y="435.5" class="m-label t-label annotation-text" text-anchor="start">Física de misiles teledirigidos, rebotes y minas</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a24" data-role="annotation">
+      <text x="49" y="457.5" class="m-label t-label annotation-text" text-anchor="start">ArenaDestructionService (ModuleScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a25" data-role="annotation">
+      <text x="406" y="457.5" class="m-label t-label annotation-text" text-anchor="start">Derrumbe de edificios de bloques y limpieza Debris</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a26" data-role="annotation">
+      <text x="49" y="479.5" class="m-label t-label annotation-text" text-anchor="start">CombatServer (Script)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a27" data-role="annotation">
+      <text x="406" y="479.5" class="m-label t-label annotation-text" text-anchor="start">Validación de disparo, munición y daño</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a28" data-role="annotation">
+      <text x="49" y="501.5" class="m-label t-label annotation-text" text-anchor="start">CrateHandler (Script)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a29" data-role="annotation">
+      <text x="406" y="501.5" class="m-label t-label annotation-text" text-anchor="start">Recolección y respawn de cajas de armas</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a30" data-role="annotation">
+      <text x="49" y="523.5" class="m-label t-label annotation-text" text-anchor="start">ArenaEventsHandler (Script)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a31" data-role="annotation">
+      <text x="406" y="523.5" class="m-label t-label annotation-text" text-anchor="start">Eventos dinámicos por mapa (avalancha, tornado, etc.)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a32" data-role="annotation">
+      <text x="15" y="567.5" class="m-label t-label annotation-text" text-anchor="start">StarterPlayer/</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a33" data-role="annotation">
+      <text x="49" y="589.5" class="m-label t-label annotation-text" text-anchor="start">StarterPlayerScripts/</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a34" data-role="annotation">
+      <text x="83" y="611.5" class="m-label t-label annotation-text" text-anchor="start">CombatClient (LocalScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a35" data-role="annotation">
+      <text x="406" y="611.5" class="m-label t-label annotation-text" text-anchor="start">Detección Lock-On, controles de disparo y derrape</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a36" data-role="annotation">
+      <text x="83" y="633.5" class="m-label t-label annotation-text" text-anchor="start">RetroHUDClient (LocalScript)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a37" data-role="annotation">
+      <text x="406" y="633.5" class="m-label t-label annotation-text" text-anchor="start">Interfaz gráfica estilo años 70 (ScreenGui procedural)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a38" data-role="annotation">
+      <text x="15" y="699.5" class="m-label t-label annotation-text" text-anchor="start">2. CONTRATO DE MODELOS 3D (VEHÍCULOS Y ARMAS)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a39" data-role="annotation">
+      <text x="15" y="721.5" class="m-label t-label annotation-text" text-anchor="start">Para que los scripts funcionen sin errores de físicas ni colisiones:</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a40" data-role="annotation">
+      <text x="15" y="765.5" class="m-label t-label annotation-text" text-anchor="start">A) Estructura de cada Vehículo en Workspace (Tag: "CombatVehicle"):</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a41" data-role="annotation">
+      <text x="40.5" y="787.5" class="m-label t-label annotation-text" text-anchor="start">- Atributo obligatorio en el Model: SpecialWeaponId (String, ej. "Gridlock", "Invasion").</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a42" data-role="annotation">
+      <text x="40.5" y="809.5" class="m-label t-label annotation-text" text-anchor="start">- Atributos dinámicos (creados por script): Health (Number), MaxHealth (Number), IsDestroyed (Boolean).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a43" data-role="annotation">
+      <text x="40.5" y="831.5" class="m-label t-label annotation-text" text-anchor="start">- Chassis (Part - PrimaryPart): Hitbox física invisible (CanCollide = true, Massless = false).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a44" data-role="annotation">
+      <text x="91.5" y="853.5" class="m-label t-label annotation-text" text-anchor="start">Seat (VehicleSeat): Soldado al Chassis (WeldConstraint). Atributo: IsDrifting (Boolean).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a45" data-role="annotation">
+      <text x="91.5" y="875.5" class="m-label t-label annotation-text" text-anchor="start">RoofMount (Attachment): Punto de montaje arma especial (flecha amarilla hacia -Z).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a46" data-role="annotation">
+      <text x="91.5" y="897.5" class="m-label t-label annotation-text" text-anchor="start">LeftSideMount (Attachment): Punto de montaje arma estándar izquierda.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a47" data-role="annotation">
+      <text x="91.5" y="919.5" class="m-label t-label annotation-text" text-anchor="start">RightSideMount (Attachment): Punto de montaje arma estándar derecha.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a48" data-role="annotation">
+      <text x="91.5" y="941.5" class="m-label t-label annotation-text" text-anchor="start">SpringFL, SpringFR, SpringRL, SpringRR (Attachments): En las 4 esquinas inferiores para Raycast.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a49" data-role="annotation">
+      <text x="40.5" y="963.5" class="m-label t-label annotation-text" text-anchor="start">- Body (Model): Mallas visuales de bloques (CanCollide = false, Massless = true, soldadas al Chassis).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a50" data-role="annotation">
+      <text x="40.5" y="985.5" class="m-label t-label annotation-text" text-anchor="start">- Wheels (Folder): WheelFL, WheelFR, WheelRL, WheelRR (CanCollide = false, Massless = true, SIN soldar).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a51" data-role="annotation">
+      <text x="40.5" y="1007.5" class="m-label t-label annotation-text" text-anchor="start">- DetachableParts (Folder): Piezas externas (capó, parachoques, alerones) soldadas con WeldConstraint que se desprenden cada 25% de daño recibido.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a52" data-role="annotation">
+      <text x="40.5" y="1029.5" class="m-label t-label annotation-text" text-anchor="start">- Script interno: ArcadeChassisController (Script de suspensión por Raycast y derrape).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a53" data-role="annotation">
+      <text x="15" y="1073.5" class="m-label t-label annotation-text" text-anchor="start">B) Estructura de Armas y Proyectiles:</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a54" data-role="annotation">
+      <text x="40.5" y="1095.5" class="m-label t-label annotation-text" text-anchor="start">- WeaponModels: Todos los hijos BasePart deben tener CanCollide = false y Massless = true.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a55" data-role="annotation">
+      <text x="40.5" y="1117.5" class="m-label t-label annotation-text" text-anchor="start">- ProjectileModels: La punta frontal del modelo debe apuntar hacia el eje -Z (LookVector).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a56" data-role="annotation">
+      <text x="15" y="1183.5" class="m-label t-label annotation-text" text-anchor="start">3. ETIQUETAS DE COLLECTIONSERVICE (TAGS) PARA ESCENARIOS Y OBJETOS</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a57" data-role="annotation">
+      <text x="15" y="1205.5" class="m-label t-label annotation-text" text-anchor="start">El agente debe etiquetar los elementos del mapa con estos nombres exactos:</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a58" data-role="annotation">
+      <text x="15" y="1249.5" class="m-label t-label annotation-text" text-anchor="start">- "CombatVehicle"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a59" data-role="annotation">
+      <text x="261.5" y="1249.5" class="m-label t-label annotation-text" text-anchor="start">Modelos de vehículos jugables o bots IA.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a60" data-role="annotation">
+      <text x="15" y="1271.5" class="m-label t-label annotation-text" text-anchor="start">- "WeaponCrate"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a61" data-role="annotation">
+      <text x="261.5" y="1271.5" class="m-label t-label annotation-text" text-anchor="start">Cajas recolectables en el mapa. (Atributo Boolean: IsSpecialCrate = true para cajas verdes).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a62" data-role="annotation">
+      <text x="15" y="1293.5" class="m-label t-label annotation-text" text-anchor="start">- "DestructibleStructure"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a63" data-role="annotation">
+      <text x="261.5" y="1293.5" class="m-label t-label annotation-text" text-anchor="start">Edificios, graneros, puentes y letreros de bloques (Atributo Number: Health = 50).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a64" data-role="annotation">
+      <text x="15" y="1315.5" class="m-label t-label annotation-text" text-anchor="start">- "ExplosiveTank"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a65" data-role="annotation">
+      <text x="261.5" y="1315.5" class="m-label t-label annotation-text" text-anchor="start">Tanques de Oil Fields (explotan en cadena en radio de 28 studs).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a66" data-role="annotation">
+      <text x="15" y="1337.5" class="m-label t-label annotation-text" text-anchor="start">- "AvalancheTree"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a67" data-role="annotation">
+      <text x="261.5" y="1337.5" class="m-label t-label annotation-text" text-anchor="start">Los 3 árboles clave de Ski Resort.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a68" data-role="annotation">
+      <text x="15" y="1359.5" class="m-label t-label annotation-text" text-anchor="start">- "AvalancheBoulder"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a69" data-role="annotation">
+      <text x="261.5" y="1359.5" class="m-label t-label annotation-text" text-anchor="start">Rocas/nieve ancladas en la cima de Ski Resort que caen al destruir los 3 árboles.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a70" data-role="annotation">
+      <text x="15" y="1381.5" class="m-label t-label annotation-text" text-anchor="start">- "AlienTeleporter"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a71" data-role="annotation">
+      <text x="261.5" y="1381.5" class="m-label t-label annotation-text" text-anchor="start">Portal central en Canyonlands.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a72" data-role="annotation">
+      <text x="15" y="1403.5" class="m-label t-label annotation-text" text-anchor="start">- "TeleporterExit"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a73" data-role="annotation">
+      <text x="261.5" y="1403.5" class="m-label t-label annotation-text" text-anchor="start">Puntos elevados de destino en Canyonlands.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a74" data-role="annotation">
+      <text x="15" y="1425.5" class="m-label t-label annotation-text" text-anchor="start">- "TornadoZone"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a75" data-role="annotation">
+      <text x="261.5" y="1425.5" class="m-label t-label annotation-text" text-anchor="start">Cilindro invisible en Ghost Town que levanta y hace girar autos.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a76" data-role="annotation">
+      <text x="15" y="1447.5" class="m-label t-label annotation-text" text-anchor="start">- "DamSwitch"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a77" data-role="annotation">
+      <text x="261.5" y="1447.5" class="m-label t-label annotation-text" text-anchor="start">Interruptor destructible en Hoover Dam.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a78" data-role="annotation">
+      <text x="15" y="1469.5" class="m-label t-label annotation-text" text-anchor="start">- "DamWater"</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a79" data-role="annotation">
+      <text x="261.5" y="1469.5" class="m-label t-label annotation-text" text-anchor="start">Zona de agua en Hoover Dam que electrocuta por 8s al romper DamSwitch.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a80" data-role="annotation">
+      <text x="15" y="1535.5" class="m-label t-label annotation-text" text-anchor="start">4. FLUJO DE EJECUCIÓN Y REGLAS DE INTEGRACIÓN (PARA EL AGENTE)</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a81" data-role="annotation">
+      <text x="15" y="1557.5" class="m-label t-label annotation-text" text-anchor="start">1. El cliente (CombatClient) nunca aplica daño directo; solo envía solicitudes por FireWeapon.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a82" data-role="annotation">
+      <text x="15" y="1579.5" class="m-label t-label annotation-text" text-anchor="start">2. CombatServer valida distancia, cooldown y munición, y delega en ProjectileService (proyectiles físicos) o Raycast (armas láser).</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a83" data-role="annotation">
+      <text x="15" y="1601.5" class="m-label t-label annotation-text" text-anchor="start">3. Al impactar, ProjectileService llama tanto a VehicleHealthService.ApplyDamage() como a ArenaDestructionService.DamageStructuresInRadius() para destruir autos y edificios simultáneamente.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a84" data-role="annotation">
+      <text x="15" y="1623.5" class="m-label t-label annotation-text" text-anchor="start">4. NetworkOwnership del Chassis se asigna dinámicamente al Player sentado en VehicleSeat para respuesta de conducción a 60 FPS sin latencia.</text>
+    </g>
+    <g class="m-node m-note" id="mdbd0e7__note__a85" data-role="annotation">
+      <text x="15" y="1645.5" class="m-label t-label annotation-text" text-anchor="start">5. DebrisService limpia automáticamente escombros de autos (10s), piezas desprendidas (8s), estructuras derrumbadas (12s) y minas (45s) para mantener el rendimiento óptimo.</text>
+    </g>
+  </g>
+</svg>
